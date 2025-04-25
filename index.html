@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <link rel="icon" href="./favicon.png" type="image/png">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section starts here -->
+    <header>
+      <h1>All-in-One Student Registration System</h1>
+      <p>
+        Register, manage, and view the student records easily with this below
+        system.
+      </p>
+    </header>
+    <!-- header section ends here -->
+
+    <!-- form section starts here -->
+    <section class="form-section">
+      <h2>Add New Student</h2>
+      <form id="studentForm">
+        <input type="text" id="name" placeholder="Student Name" required />
+        <input type="text" id="studentId" placeholder="Student ID" required />
+        <input type="email" id="email" placeholder="Email ID" required />
+        <input type="text" id="contact" placeholder="Contact Number" required />
+        <button type="submit">Register</button>
+      </form>
+    </section>
+    <!-- form section ends here -->
+
+    <!-- display section starts here -->
+    <section class="display-section">
+      <h2>All Students</h2>
+      <table id="studentTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Student ID</th>
+            <th>Email</th>
+            <th>Contact</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+    <!-- display section ends here -->
+
+    <script src="script.js"></script>
+  </body>
+</html>

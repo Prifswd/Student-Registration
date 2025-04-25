@@ -1,0 +1,27 @@
+-: Student Registration :-
+The system allows students to register their personal details including name, student ID, email, and contact number. The registration system also offers functionality for editing, deleting, and viewing student records, with data persistence using local storage.
+
+Features
+1. User Registration Form:
+- Allows users to input student details including name, student ID, email, and contact number.
+- Form validation ensures that all fields are filled out correctly and that data is in the correct format.
+
+2. View Student Records:
+- Registered students are displayed in a table, showing their details.
+- Users can edit or delete records directly from the displayed table.
+
+3. Edit and Delete Functionality:
+- Users can edit student records by clicking the 'Edit' button next to the student details.
+- Students can be deleted from the system with a prompt.
+
+
+Technical Details
+1. HTML: The core structure of the registration system is built using HTML5, including semantic tags for accessibility.
+2. CSS: Styling is applied using CSS, with a green-yellow color theme to maintain a fresh and professional look.
+3. JavaScript: The functionality is implemented with JavaScript for handling form validation and DOM manipulation.
+4. Local Storage: Local storage is used to store student data.
+
+
+--------*****************************---------
+
+GitHub repo : 
