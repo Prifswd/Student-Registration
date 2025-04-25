@@ -24,4 +24,5 @@ Technical Details
 
 --------*****************************---------
 
-GitHub repo : 
+GitHub repo : https://github.com/Prifswd/Student-Registration
+
